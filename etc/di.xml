@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <virtualType name="Emico\RobinHq\DataProvider\DetailView\DefaultDetailViewProvider" type="Emico\RobinHq\DataProvider\DetailView\AggregateProvider">
+        <arguments>
+            <argument name="providers" xsi:type="array">
+                <item name="returns" xsi:type="object">Emico\RobinHqEnterprise\DataProvider\DetailView\ReturnsProvider</item>
+            </argument>
+        </arguments>
+    </virtualType>
+</config>
