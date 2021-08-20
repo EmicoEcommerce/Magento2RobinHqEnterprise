@@ -2,8 +2,7 @@
 
 Install this module when you are using Magento Commerce.
 
-This will add some additional features to your RobinHQ dashboard
-Currently:
+This will add some additional features to your RobinHQ dashboard, currently:
   - RMA returns
 
 ## Installation
