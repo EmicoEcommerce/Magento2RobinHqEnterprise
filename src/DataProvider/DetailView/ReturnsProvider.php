@@ -6,6 +6,7 @@
 
 namespace Emico\RobinHqEnterprise\DataProvider\DetailView;
 
+use Emico\RobinHq\DataProvider\DetailView\DetailViewProviderInterface;
 use Emico\RobinHqLib\Model\Order\DetailsView;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Rma\Api\Data\ItemInterface;
