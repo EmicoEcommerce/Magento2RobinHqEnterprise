@@ -3,8 +3,8 @@
     "license": "OSL-3.0",
     "description": "Magento 2 module for RobinHQ integration. Magento Commerce version",
     "require": {
-        "php": "^7.2",
-        "emico/magento-2-robinhq": "^1.3"
+        "php": ">=7.4 <8.2",
+        "emico/magento-2-robinhq": "^2.3"
     },
     "type": "magento2-module",
     "autoload": {
